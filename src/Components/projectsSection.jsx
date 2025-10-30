@@ -43,19 +43,19 @@ const ProjectSection = () => {
 
 
             <div className="flex gap-6 mt-10 overflow-x-auto scrollbar-hide px-4">
-                <div className="flex flex-col justify-end w-[602px] h-[366px] bg-RonPrimary rounded-RButton flex-shrink-0">
+                <div className="flex flex-col justify-end w-[602px] h-[366px] bg-RonPrimary rounded-RButton ">
                     <div className="text-RButtonText font-RMontserrat text-start px-4 py-10 text-RPrimary">
                         HENESSY PRO - 3D Architecture
                     </div>
                 </div>
 
-                <div className="flex flex-col justify-end w-[602px] h-[366px] bg-RonPrimary rounded-RButton flex-shrink-0">
+                <div className="flex flex-col justify-end w-[602px] h-[366px] bg-RonPrimary rounded-RButton ">
                     <div className="text-RButtonText font-RMontserrat text-start px-4 py-10 text-RPrimary">
                         MODERN VILLA - 3D Design
                     </div>
                 </div>
 
-                <div className="flex flex-col justify-end w-[602px] h-[366px] bg-RonPrimary rounded-RButton flex-shrink-0">
+                <div className="flex flex-col justify-end w-[602px] h-[366px] bg-RonPrimary rounded-RButton">
                     <div className="text-RButtonText font-RMontserrat text-start px-4 py-10 text-RPrimary">
                         LUXURY INTERIOR - 3D Visualization
                     </div>
@@ -65,19 +65,19 @@ const ProjectSection = () => {
 
 
             <div className="flex gap-6 mt-10 overflow-x-auto scrollbar-hide px-4">
-                <div className="flex flex-col justify-end w-[602px] h-[366px] bg-RonPrimary rounded-RButton flex-shrink-0">
+                <div className="flex flex-col justify-end w-[602px] h-[366px] bg-RonPrimary rounded-RButton ">
                     <div className="text-RButtonText font-RMontserrat text-start px-4 py-10 text-RPrimary">
                         HENESSY PRO - 3D Architecture
                     </div>
                 </div>
 
-                <div className="flex flex-col justify-end w-[602px] h-[366px] bg-RonPrimary rounded-RButton flex-shrink-0">
+                <div className="flex flex-col justify-end w-[602px] h-[366px] bg-RonPrimary rounded-RButton ">
                     <div className="text-RButtonText font-RMontserrat text-start px-4 py-10 text-RPrimary">
                         MODERN VILLA - 3D Design
                     </div>
                 </div>
 
-                <div className="flex flex-col justify-end w-[602px] h-[366px] bg-RonPrimary rounded-RButton flex-shrink-0">
+                <div className="flex flex-col justify-end w-[602px] h-[366px] bg-RonPrimary rounded-RButton ">
                     <div className="text-RButtonText font-RMontserrat text-start px-4 py-10 text-RPrimary">
                         LUXURY INTERIOR - 3D Visualization
                     </div>
