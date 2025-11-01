@@ -6,7 +6,8 @@ const Herosection = () => {
          
                    
                   
-                   bg-contain
+                   bg-cover
+                   sm:bg-contain
                    bg-left
                     sm:bg-center
                      bg-no-repeat

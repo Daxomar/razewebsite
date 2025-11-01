@@ -2,7 +2,7 @@ import React from 'react'
 
 const PricingSection = () => {
     return (
-        <div className="  flex flex-col  w-full h-full border-b-4 border-black mt-16 max-w-[1980px] ">
+        <div className=" space-y-8 flex flex-col  w-full h-full border-b-4 border-black mt-16 max-w-[1980px] ">
             <div className="flex mt-10 mb-10  justify-center items-center ">
                 <div className="flex flex-col  items-center">
                     <div className="text-RHeader3 font-RMontserrat ">Pricing</div>
@@ -20,7 +20,25 @@ const PricingSection = () => {
             </div>
 
 
-            <div className="flex mt-10 mb-10 ">
+
+            <div className=" flex items-center justify-center ">
+                <div className=" flex gap-4 flex-col items-center justify-center max-w-[670px]">
+                    <div className=" text-RTitle font-RMontserrat text-center">A comprehensive Look At What I Offer and <br />How I deliver</div>
+                    <p className=" text-RParagraph2 font-RMontserrat text-center">facilisis nulla molestie euismod accumsan eget vitae augue eget elementum
+                        tristique sit pharetra diam
+                        sed ultricies  facilisis nulla molestie euismod accumsan eget vitae augue
+                        eget elementum tristique sit pharetra diam sed ultricies
+                    </p>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div className="flex mt-10 mb-10  ">
                 <div className="  flex gap-6 items-center w-[400px] h-[64px] ">
                     <div className=""><img src="/Star.svg" className="" /></div>
                     <div className="text-RTitle font-RMontserrat">BrandDesign</div>
@@ -30,147 +48,163 @@ const PricingSection = () => {
 
 
 
-            <div className=" grid grid-cols-1 justify-center   gap-16  sm:flex sm:justify-between items-center mt-10 h-full border-2 border-red-700">
-                
+            <div className="  flex flex-col justify-center gap-16  sm:flex-row sm:justify-between items-center mt-10 h-full ">
+
+
+                {/* first First */}
                 <div className="flex flex-col h-full max-h-[605px]  w-full max-w-[420px] border-black border-2 pb-RLaptopPadding    rounded-RButton">
                     <div className="bg-RPrimary border-b-2 border-RonPrimary  rounded-t-RButton flex flex-col text-RonPrimary p-RLaptopPadding gap-4 ">
-                        <div className="text-RParagraph2 font-RMontserrat">Brand Kit</div>
-                        <div className="text-RTitle text-[50px] font-RMontserrat">₵1500</div>
+                        <div className="text-RParagraph2 font-RMontserrat">Start Pack</div>
+                        <div className="text-RTitle text-[40px] sm:text-[50px] font-RMontserrat">₵1000</div>
                         <div className="text-RParagraph2 font-RMontserrat">Workmark Only</div>
                     </div>
 
-                    <div className=" w-full h-full flex flex-col justify-center  pl-RLaptopPadding text-RParagraph2 font-RMontserrat text-[14px] py-2 ">
-                        <div className="flex gap-2 border-2 border-yellow-400 text-center ">
-                             <div className="border-2 border-green-700">check</div>
-                             <div className=""> Everything in Starter +</div>
+                    <div className=" w-full h-full flex flex-col justify-center  pl-RLaptopPadding text-RParagraph2 font-RMontserrat  py-2 ">
+                        <div className="flex gap-2 ">
+                           <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                            <div className="">Wordmark Logo design(1concept + 1revision)</div>
                         </div>
 
-                         <div className="flex gap-2 ">
-                             <div className="">check</div>
-                             <div className=""> Everything in Starter +</div>
+                        <div className="flex gap-2 ">
+                            <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                            <div className=""> Final Log files (JPEG,PNG,PDF,SVG)</div>
                         </div>
 
-                         <div className="flex gap-2 ">
-                             <div className="">check</div>
-                             <div className=""> Everything in Starter +</div>
+                        <div className="flex gap-2 ">
+                            <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                            <div className=""> Basic Color Palette (2-3 core colors)</div>
                         </div>
 
-                         <div className="flex gap-2 ">
-                             <div className="">check</div>
-                             <div className=""> Everything in Starter +</div>
+                        <div className="flex gap-2 ">
+                            <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                            <div className=""> Basic Color Palette</div>
                         </div>
 
-                         <div className="flex gap-2 ">
-                             <div className="">check</div>
-                             <div className=""> Everything in Starter +</div>
+                        <div className="flex gap-2 ">
+                            <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                            <div className=""><strong>Timeline:</strong> 5-7 working days</div>
                         </div>
 
-                         <div className="flex gap-2 ">
-                             <div className="">check</div>
-                             <div className=""> Everything in Starter +</div>
+                        <div className="flex gap-2 ">
+                            <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                            <div className=""> <strong>Revision:</strong> 1round</div>
                         </div>
                     </div>
 
-                     <div className="pl-RLaptopPadding">                       
-                       <div className="  w-[170px] text-center text-RButtonText text-[14px] bg-RonPrimary text-white rounded-RButton p-2 font-RMontserrat transition-colors duration-300 ease-in-out">GET IN TOUCH</div>
+                    <div className="pl-RLaptopPadding">
+                        <div className="  w-[120px] text-center text-RButtonText text-[12px] bg-RonPrimary text-white rounded-RButton p-2 font-RMontserrat transition-colors duration-300 ease-in-out">GET IN TOUCH</div>
                     </div>
-                     
-                </div> 
+
+                </div>
 
 
-                  <div className="flex flex-col h-full max-h-[605px]  w-full max-w-[420px] border-black border-2 pb-RLaptopPadding    rounded-RButton">
+
+
+
+                  {/* first Second */}
+                <div className="flex flex-col h-full max-h-[605px]  w-full max-w-[420px] border-black border-2 pb-RLaptopPadding    rounded-RButton">
                     <div className="bg-RonPrimary rounded-t-RButton flex flex-col text-RPrimary p-RLaptopPadding gap-4 ">
                         <div className="text-RParagraph2 font-RMontserrat">Brand Kit</div>
-                        <div className="text-RTitle text-[50px] font-RMontserrat">₵1500</div>
+                        <div className="text-RTitle text-[40px] sm:text-[50px] font-RMontserrat">₵1500</div>
                         <div className="text-RParagraph2 font-RMontserrat">Workmark Only</div>
                     </div>
 
-                    <div className=" w-full h-full pl-RLaptopPadding text-RParagraph2 font-RMontserrat text-[14px] py-2 ">
+                   <div className=" w-full h-full flex flex-col justify-center  pl-RLaptopPadding text-RParagraph2 font-RMontserrat  py-2 ">
                         <div className="flex gap-2  ">
-                             <div className="">check</div>
-                             <div className=""> Everything in Starter +</div>
+                            <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                            <div className="">Everything in Starter  +</div>
                         </div>
 
-                         <div className="flex gap-2 ">
-                             <div className="">check</div>
-                             <div className=""> Everything in Starter +</div>
+                        <div className="flex gap-2 ">
+                            <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                            <div className="">Logo Variations (horizontal, vertical, icon mark)</div>
                         </div>
 
-                         <div className="flex gap-2 ">
-                             <div className="">check</div>
-                             <div className=""> Everything in Starter +</div>
+                        <div className="flex gap-2 ">
+                            <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                            <div className="">Expanded color palette (Primary + Secondary)</div>
                         </div>
 
-                         <div className="flex gap-2 ">
-                             <div className="">check</div>
-                             <div className=""> Everything in Starter +</div>
+                        <div className="flex gap-2 ">
+                            <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                            <div className="">Typography recommendations(2-3 fonts)</div>
                         </div>
 
-                         <div className="flex gap-2 ">
-                             <div className="">check</div>
-                             <div className=""> Everything in Starter +</div>
+                        <div className="flex gap-2 ">
+                            <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                            <div className=""><strong>Revision:</strong> 10-14 working days</div>
                         </div>
 
-                         <div className="flex gap-2 ">
-                             <div className="">check</div>
-                             <div className=""> Everything in Starter +</div>
+                        <div className="flex gap-2 ">
+                            <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                            <div className=""><strong>Revision:</strong> 2 round</div>
                         </div>
                     </div>
 
 
-                <div className="pl-RLaptopPadding">                       
-                       <div className="  w-[170px] text-center text-RButtonText text-[16px] bg-RonPrimary text-white rounded-RButton p-2 font-RMontserrat transition-colors duration-300 ease-in-out">GET IN TOUCH</div>
+                    <div className="pl-RLaptopPadding">
+                        <div className="  w-[120px] text-center text-RButtonText text-[12px] bg-RonPrimary text-white rounded-RButton p-2 font-RMontserrat transition-colors duration-300 ease-in-out">GET IN TOUCH</div>
                     </div>
-                </div> 
+                </div>
 
 
 
-                  <div className="flex flex-col h-full max-h-[605px]  w-full max-w-[420px] border-black border-2 pb-RLaptopPadding  rounded-RButton">
+
+
+                      {/* first 3rd */}
+                <div className="flex flex-col h-full max-h-[605px] min-h-[500px]  w-full max-w-[420px] border-black border-2 pb-RLaptopPadding  rounded-RButton">
                     <div className="bg-RonPrimary rounded-t-RButton flex flex-col text-white p-RLaptopPadding gap-4 ">
-                        <div className="text-RParagraph2 font-RMontserrat">Brand Kit</div>
-                        <div className="text-RTitle text-[50px] font-RMontserrat">₵1500</div>
+                        <div className="text-RParagraph2 font-RMontserrat">Growth / Visual Identity</div>
+                        <div className="text-RTitle text-[40px] sm:text-[50px] font-RMontserrat">₵3000</div>
                         <div className="text-RParagraph2 font-RMontserrat">Workmark Only</div>
                     </div>
 
-                    <div className=" w-full h-full pl-RLaptopPadding text-RParagraph2 font-RMontserrat text-[14px] py-2 ">
+                  <div className=" w-full h-full flex flex-col justify-center  pl-RLaptopPadding text-RParagraph2 font-RMontserrat  py-2 ">
                         <div className="flex gap-2  ">
-                             <div className="">check</div>
-                             <div className=""> Everything in Starter +</div>
+                            <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                            <div className=""> Everything in BrandKit +</div>
                         </div>
 
-                         <div className="flex gap-2 ">
-                             <div className="">check</div>
-                             <div className=""> Everything in Starter +</div>
+                        <div className="flex gap-2 ">
+                            <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                            <div className=""> Brand Patter or graphic elements</div>
                         </div>
 
-                         <div className="flex gap-2 ">
-                             <div className="">check</div>
-                             <div className=""> Everything in Starter +</div>
+                        <div className="flex gap-2 ">
+                            <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                            <div className="">Photography / Imagery style guide</div>
                         </div>
 
-                         <div className="flex gap-2 ">
-                             <div className="">check</div>
-                             <div className=""> Everything in Starter +</div>
+                        <div className="flex gap-2 ">
+                            <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                            <div className="">Mockups (business card, packaging , singapore, etc)</div>
                         </div>
 
-                         <div className="flex gap-2 ">
-                             <div className="">check</div>
-                             <div className=""> Everything in Starter +</div>
+                        <div className="flex gap-2 ">
+                            <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                            <div className="">Social media kit (6-8 branded templates)</div>
                         </div>
 
-                         <div className="flex gap-2 ">
-                             <div className="">check</div>
-                             <div className=""> Everything in Starter +</div>
+
+
+                        <div className="flex gap-2 ">
+                            <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                            <div className=""> <strong>Timeline:</strong> 2-3 weeks</div>
+                        </div>
+
+                        <div className="flex gap-2 ">
+                            <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                            <div className=""> <strong>Revision:</strong> 2-3 weeks</div>
                         </div>
                     </div>
 
 
-                <div className="pl-RLaptopPadding">                       
-                       <div className="w-[170px] text-center text-RButtonText text-[16px] bg-RonPrimary text-white rounded-RButton p-2 font-RMontserrat transition-colors duration-300 ease-in-out">GET IN TOUCH</div>
+                    <div className="pl-RLaptopPadding">
+                        <div className="w-[120px] text-center text-RButtonText text-[12px] bg-RonPrimary text-white rounded-RButton p-2 font-RMontserrat transition-colors duration-300 ease-in-out">GET IN TOUCH</div>
                     </div>
-                </div>  
-                
-                    
+                </div>
+
+
             </div>
         </div>
     )

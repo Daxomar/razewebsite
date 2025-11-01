@@ -30,8 +30,8 @@ export const Navbar = () => {
 
                 </div>
 
-            <div className="flex relative items-center text-onPrimary text-EP1 font-EP1 px-4 gap-4  ">
-                <div className="border-RBorderDark text-RButtonText 
+            <div className="flex relative items-center px-4 gap-4  ">
+                <div className="border-RBorderDark text-RButtonText
                  border-RonPrimary hover:bg-RonPrimary
                   hover:text-RPrimary rounded-RButton p-2 font-RMontserrat
                    transition-colors duration-300 ease-in-out">GET IN TOUCH</div>
