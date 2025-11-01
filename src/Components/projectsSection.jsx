@@ -15,7 +15,7 @@ const ProjectSection = () => {
 
 
 
-            <div className="flex gap-6 mt-10">
+            <div className="justify-center items-center flex gap-6 mt-10 border-2 border-black h-full">
                 <div className="flex flex-col justify-end w-[602px] h-[366px] bg-RonPrimary rounded-RButton">
                     <div className=" text-RButtonText font-RMontserrat text-start px-4 py-10 text-RPrimary ">HENESSY PRO - 3D Architecture</div>
                    

@@ -46,71 +46,71 @@ export default {
       },
 
       fontSize: {
-        RHeader1: [
-          `${tokens["RazeWebsite"].RHeader1.value.fontSize}px`,
-          {
-            lineHeight: `${tokens["RazeWebsite"].RHeader1.value.lineHeight}px`,
-            letterSpacing: `${tokens["RazeWebsite"].RHeader1.value.letterSpacing}px`,
-            fontWeight: tokens["RazeWebsite"].RHeader1.value.fontWeight,
-          },
-        ],
-        RHeader2: [
-          `${tokens["RazeWebsite"].RHeader2.value.fontSize}px`,
-          {
-            lineHeight: `${tokens["RazeWebsite"].RHeader2.value.lineHeight}px`,
-            letterSpacing: `${tokens["RazeWebsite"].RHeader2.value.letterSpacing}px`,
-            fontWeight: tokens["RazeWebsite"].RHeader2.value.fontWeight,
-          },
-        ],
-        RHeader3: [
-          `${tokens["RazeWebsite"].RHeader3.value.fontSize}px`,
-          {
-            lineHeight: `${tokens["RazeWebsite"].RHeader3.value.lineHeight}px`,
-            letterSpacing: `${tokens["RazeWebsite"].RHeader3.value.letterSpacing}px`,
-            fontWeight: tokens["RazeWebsite"].RHeader3.value.fontWeight,
-          },
-        ],
-        RHeader4: [
-          `${tokens["RazeWebsite"].RHeader4.value.fontSize}px`,
-          {
-            lineHeight: `${tokens["RazeWebsite"].RHeader4.value.lineHeight}px`,
-            letterSpacing: `${tokens["RazeWebsite"].RHeader4.value.letterSpacing}px`,
-            fontWeight: tokens["RazeWebsite"].RHeader4.value.fontWeight,
-          },
-        ],
-        RTitle: [
-          `${tokens["RazeWebsite"].RTitle.value.fontSize}px`,
-          {
-            lineHeight: `${tokens["RazeWebsite"].RTitle.value.lineHeight}px`,
-            letterSpacing: `${tokens["RazeWebsite"].RTitle.value.letterSpacing}px`,
-            fontWeight: tokens["RazeWebsite"].RTitle.value.fontWeight,
-          },
-        ],
-        RParagraph1: [
-          `${tokens["RazeWebsite"].RParagraph1.value.fontSize}px`,
-          {
-            lineHeight: `${tokens["RazeWebsite"].RParagraph1.value.lineHeight}px`,
-            letterSpacing: `${tokens["RazeWebsite"].RParagraph1.value.letterSpacing}px`,
-            fontWeight: tokens["RazeWebsite"].RParagraph1.value.fontWeight,
-          },
-        ],
-        RParagraph2: [
-          `${tokens["RazeWebsite"].RParagraph2.value.fontSize}px`,
-          {
-            lineHeight: `${tokens["RazeWebsite"].RParagraph2.value.lineHeight}px`,
-            letterSpacing: `${tokens["RazeWebsite"].RParagraph2.value.letterSpacing}px`,
-            fontWeight: tokens["RazeWebsite"].RParagraph2.value.fontWeight,
-          },
-        ],
-        RButtonText: [
-          `${tokens["RazeWebsite"].RButtonText.value.fontSize}px`,
-          {
-            lineHeight: `${tokens["RazeWebsite"].RButtonText.value.lineHeight}px`,
-            letterSpacing: `${tokens["RazeWebsite"].RButtonText.value.letterSpacing}px`,
-            fontWeight: tokens["RazeWebsite"].RButtonText.value.fontWeight,
-          },
-        ],
-      },
+  RHeader1: [
+    tokens["RazeWebsite"].RHeader1.value.fontSize,
+    {
+      lineHeight: tokens["RazeWebsite"].RHeader1.value.lineHeight,
+      letterSpacing: tokens["RazeWebsite"].RHeader1.value.letterSpacing,
+      fontWeight: tokens["RazeWebsite"].RHeader1.value.fontWeight,
+    },
+  ],
+  RHeader2: [
+    tokens["RazeWebsite"].RHeader2.value.fontSize,
+    {
+      lineHeight: tokens["RazeWebsite"].RHeader2.value.lineHeight,
+      letterSpacing: tokens["RazeWebsite"].RHeader2.value.letterSpacing,
+      fontWeight: tokens["RazeWebsite"].RHeader2.value.fontWeight,
+    },
+  ],
+  RHeader3: [
+    tokens["RazeWebsite"].RHeader3.value.fontSize,
+    {
+      lineHeight: tokens["RazeWebsite"].RHeader3.value.lineHeight,
+      letterSpacing: tokens["RazeWebsite"].RHeader3.value.letterSpacing,
+      fontWeight: tokens["RazeWebsite"].RHeader3.value.fontWeight,
+    },
+  ],
+  RHeader4: [
+    tokens["RazeWebsite"].RHeader4.value.fontSize,
+    {
+      lineHeight: tokens["RazeWebsite"].RHeader4.value.lineHeight,
+      letterSpacing: tokens["RazeWebsite"].RHeader4.value.letterSpacing,
+      fontWeight: tokens["RazeWebsite"].RHeader4.value.fontWeight,
+    },
+  ],
+  RTitle: [
+    tokens["RazeWebsite"].RTitle.value.fontSize,
+    {
+      lineHeight: tokens["RazeWebsite"].RTitle.value.lineHeight,
+      letterSpacing: tokens["RazeWebsite"].RTitle.value.letterSpacing,
+      fontWeight: tokens["RazeWebsite"].RTitle.value.fontWeight,
+    },
+  ],
+  RParagraph1: [
+    tokens["RazeWebsite"].RParagraph1.value.fontSize,
+    {
+      lineHeight: tokens["RazeWebsite"].RParagraph1.value.lineHeight,
+      letterSpacing: tokens["RazeWebsite"].RParagraph1.value.letterSpacing,
+      fontWeight: tokens["RazeWebsite"].RParagraph1.value.fontWeight,
+    },
+  ],
+  RParagraph2: [
+    tokens["RazeWebsite"].RParagraph2.value.fontSize,
+    {
+      lineHeight: tokens["RazeWebsite"].RParagraph2.value.lineHeight,
+      letterSpacing: tokens["RazeWebsite"].RParagraph2.value.letterSpacing,
+      fontWeight: tokens["RazeWebsite"].RParagraph2.value.fontWeight,
+    },
+  ],
+  RButtonText: [
+    tokens["RazeWebsite"].RButtonText.value.fontSize,
+    {
+      lineHeight: tokens["RazeWebsite"].RButtonText.value.lineHeight,
+      letterSpacing: tokens["RazeWebsite"].RButtonText.value.letterSpacing,
+      fontWeight: tokens["RazeWebsite"].RButtonText.value.fontWeight,
+    },
+  ],
+},
     },
   },
   plugins: [],

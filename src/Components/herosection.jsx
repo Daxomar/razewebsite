@@ -5,7 +5,7 @@ const Herosection = () => {
     <div className="
          
                    
-                  mt-20
+                  
                    bg-contain
                    bg-left
                     sm:bg-center
@@ -13,9 +13,7 @@ const Herosection = () => {
                       w-screen 
                       bg-[url('/BGMobile.png')]
     sm:bg-[url('/Background.png')]
-                      h-[calc(100vh-58px)]
-                      border-2 
-                      border-black 
+                      h-[calc(100vh-58px)]                             
                       "
         >
 
