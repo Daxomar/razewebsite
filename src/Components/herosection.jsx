@@ -14,7 +14,7 @@ const Herosection = () => {
                       w-screen 
                       bg-[url('/BGMobile.png')]
     sm:bg-[url('/Background.png')]
-                      h-[calc(100dvh)]    
+                      h-[calc(100vh)]    
                      
                       mt-[-80px]
                       sm:mt-[-20px]                                           
