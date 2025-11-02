@@ -18,9 +18,9 @@ const Home = () => {
         <div className="flex flex-col items-center flex-1 py-[80px] sm:py-[120px] px-[20px] sm:px-[40px] md:px-[40px] lg:px-[80px] 2xl:px-[100px] ">
             <Herosection />
             <IntroSection />
-            <PricingSection/>
             {/* <HighLightSection /> */}
-            {/* <ServiceSection /> */}
+            <ServiceSection />
+            <PricingSection/>
             {/* <TestimonialSection/> */}
             {/* <ProjectSection /> */}
             
