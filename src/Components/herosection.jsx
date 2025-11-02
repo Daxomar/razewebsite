@@ -25,7 +25,7 @@ const Herosection = () => {
  {/* h-[calc(100vh-58px)]  */}
 
             <div className=" justify-between items-end flex sm:gap-2  flex-col  text-start h-full w-full  sm:justify-center sm:items-center  sm:mt-32  sm:w-screen sm:h-screen    ">
-                <div className=" px-[20px] sm:p-0 order-2 sm:order-1 text-white sm:text-black text-RHeader1 font-RMontserrat w-full border-2 border-green-600 mb-20 sm:mb-0 sm:w-full flex  sm:justify-center sm:items-center ">
+                <div className=" px-[20px] sm:p-0 order-2 sm:order-1 text-white sm:text-black text-RHeader1 font-RMontserrat w-full  mb-20 sm:mb-0 sm:w-full flex  sm:justify-center sm:items-center ">
                     I am a<br/>Digital Designer
                 </div>
 
