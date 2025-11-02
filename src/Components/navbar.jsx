@@ -6,18 +6,18 @@ export const Navbar = () => {
  
     const [menuOpen, setMenuOpen] = useState(false)
     return (
-        <div className=" fixed top-0 left-0 w-full z-50 flex justify-between bg-white font-smallText text-smallText px-[30px] py-[16px] md:px-[40px] lg:px-[80px] border-2 ">
-            <div className="flex gap text-onPrimary">
+        <div className=" fixed top-0 left-0 w-full z-50 flex justify-between bg-white  px-[20px] py-[8px] md:px-[40px] lg:px-[80px] ">
+            <div className="flex gap text-onPrimary  w-full">
                 <div className=" text-RTitle  flex justify-center items-center "><img  src={assets.Logo} className='w-[25px] h-[25px] sm:w-[48px] sm:h-[48px]  ' /></div>
             </div>
 
 
-                <div className="hidden sm:flex items-center gap-10 text-RParagraph1 font-RMontserrat px-4 ">
-                    <div className="py-2 px-4">Home</div>
-                    <div className="py-2 px-4">About</div>
-                    <div className="py-2 px-4">Projects</div>
-                    <div className="py-2 px-4 ">Contact</div>
-                    <div className="py-2 px-4 ">Pricing</div>
+                <div className="hidden sm:flex items-center  justify-around  text-RParagraph1 w-full font-RMontserrat px-8">
+                    <div className="py-2 px-4  ">Home</div>
+                    <div className="py-2 px-4  ">About</div>
+                    <div className="py-2 px-4 ">Projects</div>
+                    <div className="py-2 px-4  ">Contact</div>
+                    <div className="py-2 px-4  ">Pricing</div>
 
 
                      {/* <div className="py-2 px-4">Home</div>
@@ -30,16 +30,16 @@ export const Navbar = () => {
 
                 </div>
 
-            <div className="flex relative items-center px-4 gap-4  ">
+            <div className="flex relative w-full items-center justify-end  gap-2">
                 <div className="border-RBorderDark text-RButtonText
                  border-RonPrimary hover:bg-RonPrimary
-                  hover:text-RPrimary rounded-RButton p-2 font-RMontserrat
+                  hover:text-RPrimary rounded-lg p-2  font-RMontserrat
                    transition-colors duration-300 ease-in-out">GET IN TOUCH</div>
 
                 <div className="hidden sm:block"><img src="/Star.svg" className=""/></div>
                 <div className="md:hidden  flex  items-center justify-center">
                     <button onClick={() => setMenuOpen(!menuOpen)}>
-                        {menuOpen ? <i class="fa-solid fa-bars  text-2xl"></i> : <i class="fa-solid fa-xmark text-2xl"></i>}
+                        {menuOpen ? <i class="fa-solid fa-bars text-RSecondary text-2xl"></i> : <i class="fa-solid fa-xmark text-RSecondary text-2xl"></i>}
                     </button>
                 </div>
 
