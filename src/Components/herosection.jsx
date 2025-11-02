@@ -16,7 +16,7 @@ const Herosection = () => {
     sm:bg-[url('/Background.png')]
                       h-[calc(100vh)]    
                      
-                      mt-[-120px]
+                    
                       sm:mt-[-20px]                                           
                       "
         >
