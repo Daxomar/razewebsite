@@ -2,7 +2,7 @@ import React from 'react'
 
 const IntroSection = () => {
   return (
-   <div className="border-b-4 border-black flex flex-col justify-center w-full  h-screen max-w-[1980px]  ">
+   <div className="border-b-4 border-black flex flex-col justify-center w-full h-full mt-16 sm:h-screen max-w-[1980px]  ">
                  <div className="flex ">
                     <div className="  flex gap-6 items-center w-full h-[64px] sm:mt-16 ">
                         <div className=""><img src="/Star.svg" className="" /></div>
