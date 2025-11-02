@@ -2,7 +2,7 @@ import React from 'react'
 
 const PricingSection = () => {
     return (
-        <div className=" space-y-8 flex flex-col  w-full h-full border-b-4 border-black mt-16 max-w-[1980px] ">
+        <div className=" space-y-8 flex flex-col  w-full  border-b-4 border-black sm:mt-16 max-w-[1980px] ">
             <div className="flex mt-10 mb-10  justify-center items-center ">
                 <div className="flex flex-col  items-center">
                     <div className="text-RHeader3 font-RMontserrat ">Pricing</div>
