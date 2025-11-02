@@ -29,9 +29,10 @@ const Herosection = () => {
                 </div>
 
                 <div className="  order-1 sm:order-2 sm:w-full  h-full sm:h-auto sm:text-black flex  text-3xl gap-2 flex-col justify-center items-start px-12 ">
-                    <div><i class="fa-brands fa-instagram"></i></div>
-                    <div><i class="fa-brands fa-linkedin"></i></div>
-                    <div><i class="fa-brands fa-behance"></i></div>
+                    <a href='https://www.linkedin.com/in/faithfulness-chukwurah-366700193/' target="_blank" ><i class="fa-brands fa-instagram"></i></a>
+                    <a href='https://www.linkedin.com/in/faithfulness-chukwurah-366700193/' target="_blank"  ><i class="fa-brands fa-linkedin"></i></a>
+                    <a href='https://www.behance.net/iamraze' target="_blank"><i class="fa-brands fa-behance"></i></a>
+                   
                     
                 </div>
             </div>
