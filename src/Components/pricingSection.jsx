@@ -2,7 +2,7 @@ import React from 'react'
 
 const PricingSection = () => {
     return (
-        <div className=" space-y-8 flex flex-col  w-full   mt-16 max-w-[1980px] ">
+        <div className=" space-y-8 flex flex-col text-RPrimary  w-full   mt-16 max-w-[1980px] ">
             <div className="flex mt-10 mb-10  justify-center items-center ">
                 <div className="flex flex-col  items-center">
                     <div className="text-RHeader3 font-RMontserrat ">Pricing</div>
@@ -10,8 +10,8 @@ const PricingSection = () => {
                     <div className=" w-full flex justify-center gap-2 items-center text-RParagraph1 font-RMontserrat">
                         <div className="">Monthly</div>
                         <div className=" ">
-                            <div className="border-2 border-black w-[38px] h-[16px] rounded-3xl flex items-center justify-end bg-RonPrimary py-2  ">
-                                <div className="border-2 border-black rounded-full w-[20px] h-[20px] bg-RPrimary"></div>
+                            <div className="border-2 border-RPrimary w-[38px] h-[16px] rounded-3xl flex items-center justify-end bg-RPrimary py-2  ">
+                                <div className="border-2 border-RPrimary rounded-full w-[20px] h-[20px] bg-RonPrimary"></div>
                             </div>
                         </div>
                         <div className="">Yearly</div>
@@ -39,8 +39,8 @@ const PricingSection = () => {
 
 
             <div className="flex mt-10 mb-10  ">
-                <div className="  flex gap-6 items-center w-[400px] h-[64px] ">
-                    <div className=""><img src="/Star.svg" className="" /></div>
+                <div className="  flex gap-2 items-center w-[400px] h-[64px] ">
+                   <div className=""><i class="fa-solid fa-star text-2xl"></i></div>
                     <div className="text-RTitle font-RMontserrat">BrandDesign</div>
                 </div>
             </div>
@@ -52,8 +52,8 @@ const PricingSection = () => {
 
 
                 {/* first First */}
-                <div className="flex flex-col h-full max-h-[605px]  w-full max-w-[420px] border-black border-2 pb-RLaptopPadding    rounded-RButton">
-                    <div className="bg-RPrimary border-b-2 border-RonPrimary  rounded-t-RButton flex flex-col text-RonPrimary p-RLaptopPadding gap-4 ">
+                <div className="flex flex-col h-full max-h-[605px]  w-full max-w-[420px] border-RPrimary border-2 pb-RLaptopPadding    rounded-RButton">
+                    <div className=" border-b-2 border-RPrimary  rounded-t-RButton flex flex-col text-RPrimary p-RLaptopPadding gap-4 hover:bg-RPrimary hover:text-RonPrimary transition-colors duration-300 ease-in-out ">
                         <div className="text-RParagraph2 font-RMontserrat">Start Pack</div>
                         <div className="text-RTitle text-[40px] sm:text-[50px] font-RMontserrat">₵1000</div>
                         <div className="text-RParagraph2 font-RMontserrat">Workmark Only</div>
@@ -92,7 +92,7 @@ const PricingSection = () => {
                     </div>
 
                     <div className="pl-RLaptopPadding">
-                        <div className="  w-[120px] text-center text-RButtonText text-[12px] bg-RonPrimary text-white rounded-RButton p-2 font-RMontserrat transition-colors duration-300 ease-in-out">GET IN TOUCH</div>
+                        <div className="  w-[120px] text-center text-RButtonText text-[12px] border-2 border-RPrimary text-white rounded-RButton p-2 font-RMontserrat hover:bg-RPrimary hover:text-RonPrimary transition-colors duration-300 ease-in-out">GET IN TOUCH</div>
                     </div>
 
                 </div>
@@ -102,8 +102,8 @@ const PricingSection = () => {
 
 
                   {/* first Second */}
-                <div className="flex flex-col h-full max-h-[605px]  w-full max-w-[420px] border-black border-2 pb-RLaptopPadding    rounded-RButton">
-                    <div className="bg-RonPrimary rounded-t-RButton flex flex-col text-RPrimary p-RLaptopPadding gap-4 ">
+                <div className="flex flex-col h-full max-h-[605px]  w-full max-w-[420px] border-RPrimary border-2 pb-RLaptopPadding    rounded-RButton">
+                    <div className="bg-RonPrimary rounded-t-RButton border-b-2 border-RPrimary flex flex-col text-RPrimary p-RLaptopPadding gap-4 hover:bg-RPrimary hover:text-RonPrimary transition-colors duration-300 ease-in-out ">
                         <div className="text-RParagraph2 font-RMontserrat">Brand Kit</div>
                         <div className="text-RTitle text-[40px] sm:text-[50px] font-RMontserrat">₵1500</div>
                         <div className="text-RParagraph2 font-RMontserrat">Workmark Only</div>
@@ -143,7 +143,7 @@ const PricingSection = () => {
 
 
                     <div className="pl-RLaptopPadding">
-                        <div className="  w-[120px] text-center text-RButtonText text-[12px] bg-RonPrimary text-white rounded-RButton p-2 font-RMontserrat transition-colors duration-300 ease-in-out">GET IN TOUCH</div>
+                        <div className="  w-[120px] text-center text-RButtonText text-[12px] border-2 border-RPrimary text-RPrimary rounded-RButton p-2 font-RMontserrat hover:bg-RPrimary hover:text-RonPrimary transition-colors duration-300 ease-in-out">GET IN TOUCH</div>
                     </div>
                 </div>
 
@@ -152,8 +152,8 @@ const PricingSection = () => {
 
 
                       {/* first 3rd */}
-                <div className="flex flex-col h-full max-h-[605px] min-h-[500px]  w-full max-w-[420px] border-black border-2 pb-RLaptopPadding  rounded-RButton">
-                    <div className="bg-RonPrimary rounded-t-RButton flex flex-col text-white p-RLaptopPadding gap-4 ">
+                <div className="flex flex-col h-full max-h-[605px] min-h-[500px]  w-full max-w-[420px] border-RPrimary border-2 pb-RLaptopPadding  rounded-RButton">
+                    <div className="bg-RonPrimary border-b-2 border-RPrimary rounded-t-RButton flex flex-col  p-RLaptopPadding gap-4 hover:bg-RPrimary hover:text-RonPrimary transition-colors duration-300 ease-in-out">
                         <div className="text-RParagraph2 font-RMontserrat">Growth / Visual Identity</div>
                         <div className="text-RTitle text-[40px] sm:text-[50px] font-RMontserrat">₵3000</div>
                         <div className="text-RParagraph2 font-RMontserrat">Workmark Only</div>
@@ -180,10 +180,7 @@ const PricingSection = () => {
                             <div className="">Mockups (business card, packaging , singapore, etc)</div>
                         </div>
 
-                        <div className="flex gap-2 ">
-                            <div className=""><i class="fa-solid fa-circle-check"></i></div>
-                            <div className="">Social media kit (6-8 branded templates)</div>
-                        </div>
+                       
 
 
 
@@ -200,7 +197,7 @@ const PricingSection = () => {
 
 
                     <div className="pl-RLaptopPadding">
-                        <div className="w-[120px] text-center text-RButtonText text-[12px] bg-RonPrimary text-white rounded-RButton p-2 font-RMontserrat transition-colors duration-300 ease-in-out">GET IN TOUCH</div>
+                        <div className="w-[120px] text-center text-RButtonText text-[12px] border-2 border-RPrimary text-RPrimary rounded-RButton p-2 font-RMontserrat hover:bg-RPrimary hover:text-RonPrimary transition-colors duration-300 ease-in-out">GET IN TOUCH</div>
                     </div>
                 </div>
 

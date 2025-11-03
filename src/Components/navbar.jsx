@@ -32,14 +32,14 @@ export const Navbar = () => {
 
             <div className="flex relative w-full items-center justify-end  gap-2">
                 <div className="border-RBorderDark text-RButtonText
-                 border-RonPrimary hover:bg-RonPrimary
-                  hover:text-RPrimary rounded-lg p-2  font-RMontserrat
+                 border-[#101010] hover:bg-[#101010]
+                  hover:text-white rounded-lg p-2  font-RMontserrat
                    transition-colors duration-300 ease-in-out">GET IN TOUCH</div>
 
                 <div className="hidden sm:block"><img src="/Star.svg" className=""/></div>
                 <div className="md:hidden  flex  items-center justify-center">
                     <button onClick={() => setMenuOpen(!menuOpen)}>
-                        {menuOpen ? <i class="fa-solid fa-xmark text-RonPrimary text-2xl"></i> : <i class="fa-solid fa-bars text-RonPrimary text-2xl"></i>}
+                        {menuOpen ? <i class="fa-solid fa-xmark text-[#101010] text-2xl"></i> : <i class="fa-solid fa-bars text-[#101010] text-2xl"></i>}
                     </button>
                 </div>
 

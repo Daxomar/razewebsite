@@ -48,10 +48,10 @@ const ServiceSection = () => {
 
 
     return (
-        <div className=" pb-16  flex flex-col  w-full ">
-            <div className="flex mt-16 mb-10 ">
-                <div className="   flex gap-6 items-center w-[215px] h-[64px] ">
-                    <div className=""><img src="/Star.svg" className="" /></div>
+        <div className=" pb-16  flex flex-col  w-full text-RPrimary ">
+            <div className="flex mt-16 mb-10 items-center  ">
+                <div className="flex gap-2 items-center w-[215px] h-[64px] ">
+                    <div className=""><i class="fa-solid fa-star text-2xl"></i></div>
                     <div className="text-RTitle font-RMontserrat">Services</div>
 
                 </div>

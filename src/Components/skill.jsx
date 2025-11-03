@@ -13,7 +13,7 @@ const Skill = ({skill}) => {
 
 
                         <div className="flex flex-col w-full  h-full max-w-[400px] max-h-[400px] sm:max-w-[450px] sm:min-h-[400px] lg:min-h-[450px]  lg:max-h-[900px] ">
-                            <div className="border-2 h-full border-black rounded-RSkill flex flex-col justify-between px-4 py-24">
+                            <div className="border-2 h-full border-RPrimary rounded-RSkill flex flex-col justify-between px-4 py-24">
                                 <div className="flex justify-start items-start ">
                                     <div className=" flex justify-center items-center w-[45px] h-[45px] border-2 rounded-full bg-RonPrimary ">
                                         <img src="/Arrow.svg" />

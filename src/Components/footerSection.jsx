@@ -2,10 +2,10 @@ import React from 'react'
 
 const FooterSection = () => {
     return (
-        <div className="w-full mt-16 h-screen flex-col flex justify-center  ">
-            <div className="flex justify-between gap-2  py-7 border-t-4 border-b-4 border-RonPrimary  ">
+        <div className="w-full mt-16 h-screen flex-col flex justify-center text-RPrimary  ">
+            <div className="flex justify-between gap-2  py-7 border-t-4 border-b-4 border-RPrimary  ">
                 <div className="  text-RHeader2 font-RMontserrat  xl:leading-[140px] xl:min-h-[370px] ">Let's Connect<br /> There</div>
-                <div className="flex justify-center items-center border-RBorderDark text-RTitle border-RonPrimary hover:bg-RonPrimary hover:text-RPrimary rounded-RButton p-2 w-[313px]  h-[90px] font-RMontserrat transition-colors duration-300 ease-in-out">GET IN TOUCH</div>
+                <div className="flex justify-center items-center border-RBorderDark text-RTitle border-RPrimary hover:bg-RPrimary hover:text-RonPrimary rounded-RButton p-2 w-[313px]  h-[90px] font-RMontserrat transition-colors duration-300 ease-in-out">GET IN TOUCH</div>
             </div>
 
 
@@ -13,7 +13,7 @@ const FooterSection = () => {
                 <div className="flex flex-col gap-2 max-w-[570px] w-full flex-1">
                     <div className="flex items-center gap-6">
                     <div className=""><img src="/Logo.svg" alt='Logo Image' className="inline" /></div>
-                    <div className="text-RHeader3 font-RMontserrat text-RonPrimary">RAZE</div>
+                    <div className="text-RHeader3 font-RMontserrat text-RPrimary">RAZE</div>
                     </div>
                     <div className="text-RParagraph1 font-RMontserrat p">Lorem ipsum volutpat adipiscing urna morbi at venenatis proin aliquet penatibus orci aliquam suspendisse tincidunt morbi a aliquam pellentesque non</div>   
                 </div>
@@ -42,7 +42,7 @@ const FooterSection = () => {
             </div>
 
             <div className="  flex flex-col gap-12 md:flex-row justify-between items-center py-4 ">
-                <div className="  sm:text-black flex  text-3xl gap-2  justify-start items-start  w-full max-w-[950px] ">
+                <div className="  sm:text-RPrimary flex  text-3xl gap-2  justify-start items-start  w-full max-w-[950px] ">
                     <a href='https://www.linkedin.com/in/faithfulness-chukwurah-366700193/' target="_blank" ><i class="fa-brands fa-instagram"></i></a>
                     <a href='https://www.linkedin.com/in/faithfulness-chukwurah-366700193/' target="_blank"  ><i class="fa-brands fa-linkedin"></i></a>
                     <a href='https://www.behance.net/iamraze' target="_blank"><i class="fa-brands fa-behance"></i></a>
@@ -58,7 +58,7 @@ const FooterSection = () => {
                 </div>
             </div>
 
-            <div className=" flex items-center justify-center text-RTitle py-16 border-t-4 border-RonPrimary">All rights reserverd @RAZE</div>
+            <div className=" flex items-center justify-center text-RTitle py-16 border-t-4 border-RPrimary">All rights reserverd @RAZE</div>
         </div>
     )
 }
