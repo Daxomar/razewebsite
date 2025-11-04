@@ -2,7 +2,7 @@ import React from 'react'
 
 const FooterSection = () => {
     return (
-        <div className="w-full mt-16 h-screen flex-col flex justify-center text-RPrimary  ">
+        <div className="w-full  flex-col flex justify-center text-RPrimary lg:h-screen  mt-16 pb-16   ">
             <div className="flex justify-between gap-2  py-7 border-t-4 border-b-4 border-RPrimary  ">
                 <div className="  text-RHeader2 font-RMontserrat  xl:leading-[140px] xl:min-h-[370px] ">Let's Connect<br /> There</div>
                 <div className="flex justify-center items-center border-RBorderDark text-RTitle border-RPrimary hover:bg-RPrimary hover:text-RonPrimary rounded-RButton p-2 w-[313px]  h-[90px] font-RMontserrat transition-colors duration-300 ease-in-out">GET IN TOUCH</div>
@@ -12,7 +12,7 @@ const FooterSection = () => {
             <div className="flex flex-col gap-12 sm:flex-row pt-12 justify-between items-start ">
                 <div className="flex flex-col gap-2 max-w-[570px] w-full flex-1">
                     <div className="flex items-center gap-6">
-                    <div className=""><img src="/Logo.svg" alt='Logo Image' className="inline" /></div>
+                    <div className=""><img src="/LogoWhite.svg" alt='Logo Image' className="inline" /></div>
                     <div className="text-RHeader3 font-RMontserrat text-RPrimary">RAZE</div>
                     </div>
                     <div className="text-RParagraph1 font-RMontserrat p">Lorem ipsum volutpat adipiscing urna morbi at venenatis proin aliquet penatibus orci aliquam suspendisse tincidunt morbi a aliquam pellentesque non</div>   
@@ -54,7 +54,6 @@ const FooterSection = () => {
                     <div className="py-2 px-4  ">About</div>
                     <div className="py-2 px-4 ">Projects</div>
                     <div className="py-2 px-4  ">Contact</div>
-                    
                 </div>
             </div>
 

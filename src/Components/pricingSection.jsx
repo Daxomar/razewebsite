@@ -48,7 +48,7 @@ const PricingSection = () => {
 
 
 
-            <div className="  flex flex-col justify-center gap-16  sm:flex-row sm:justify-between items-center mt-10 h-full ">
+            <div className="  flex flex-col justify-center gap-16  sm:grid sm:grid-cols-2 sm:justify-items-center xl:flex xl:flex-row xl:justify-between items-center mt-10 h-full ">
 
 
                 {/* first First */}
@@ -152,7 +152,7 @@ const PricingSection = () => {
 
 
                       {/* first 3rd */}
-                <div className="flex flex-col h-full max-h-[605px] min-h-[500px]  w-full max-w-[420px] border-RPrimary border-2 pb-RLaptopPadding  rounded-RButton">
+                <div className="flex flex-col h-full max-h-[605px] min-h-[500px]  w-full max-w-[420px] border-RPrimary border-2 pb-RLaptopPadding  rounded-RButton sm:col-span-2 sm:justify-self-center">
                     <div className="bg-RonPrimary border-b-2 border-RPrimary rounded-t-RButton flex flex-col  p-RLaptopPadding gap-4 hover:bg-RPrimary hover:text-RonPrimary transition-colors duration-300 ease-in-out">
                         <div className="text-RParagraph2 font-RMontserrat">Growth / Visual Identity</div>
                         <div className="text-RTitle text-[40px] sm:text-[50px] font-RMontserrat">₵3000</div>
