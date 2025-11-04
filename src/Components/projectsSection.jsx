@@ -2,10 +2,10 @@ import React from 'react'
 import { Appi } from './Carousel'
 const ProjectSection = () => {
     return (
-        <div className="  flex flex-col text-RPrimary  w-full h-screen border-b-4 border-RPrimary mt-16 ">
+        <div className="  flex flex-col text-RPrimary  w-full h-screen border-t-4 border-RPrimary mt-16 ">
             <div className="flex mt-10 mb-10 ">
                 <div className="   flex gap-6 items-center w-[246px] h-[64px] ">
-                    <div className=""><img src="/Star.svg" className="" /></div>
+                    <div className=""><i class="fa-solid fa-star text-2xl"></i></div>
                     <div className="text-RTitle font-RMontserrat">Projects</div>
 
                 </div>
