@@ -20,3 +20,54 @@
   --RonPrimary: #ffffff;
   --RSecondary: #e04545;
 }
+
+
+.carousel {
+  margin: 100px auto;
+  width: 90%;
+ 
+  display: flex;
+  overflow-x: hidden; /* Fixed: was overflow-y */
+  position: relative;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  animation: scroll 20s infinite linear; /* Renamed for clarity */
+  padding-right: 1em;
+  flex-shrink: 0; /* Prevent group from shrinking */
+  will-change: transform; 
+}
+
+/* Pause on hover */
+.carousel:hover .group {
+  animation-play-state: paused;
+}
+
+.card {
+  flex: 0 0 5em;
+  height: 5em;
+  padding: 1em;
+  background: cornflowerblue;
+  font-size: 3rem;
+  border-radius: 0.2em;
+  text-align: center;
+  align-content: center;
+  user-select: none; /* Prevent text selection during drag */
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0); /* Better than 'translate' */
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}

@@ -75,8 +75,8 @@ export const Appi = () => {
 
 // autoSlide={true} autoSlideInterval={5000}
   return (
-    <div>
-         <div className="">
+    
+         <div className=" w-full  flex flex-col justify-center items-center">
             {/* me adding the autoslide effect to it */}
             <Realcarousel autoSlide={true} autoSlideInterval={5000} >
 
@@ -95,8 +95,10 @@ export const Appi = () => {
 
 
                    {[...Projects.map((project) => (
-                 
+
+                    
                     <img src = {project.projectPreview} className="" />
+                     
                     
                 )),
                   <video
@@ -110,6 +112,7 @@ export const Appi = () => {
 ></video>
                 ]}
 
+              
                  {/* {[...slides.map((slide) => (
                     <img src = {slide} />
                 )),
@@ -117,7 +120,7 @@ export const Appi = () => {
                 ]} */}
             </Realcarousel>
          </div>
-    </div>
+    
   )
 }
 

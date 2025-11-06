@@ -2,7 +2,7 @@ import React from 'react'
 import { Appi } from './Carousel'
 const ProjectSection = () => {
     return (
-        <div className="  flex flex-col text-RPrimary  w-full h-screen border-t-4 border-RPrimary mt-16 ">
+        <div className="  flex flex-col text-RPrimary  w-full lg:h-full border-t-4 border-RPrimary mt-16 ">
             <div className="flex mt-10 mb-10 ">
                 <div className="   flex gap-6 items-center w-[246px] h-[64px] ">
                     <div className=""><i class="fa-solid fa-star text-2xl"></i></div>
@@ -37,11 +37,35 @@ const ProjectSection = () => {
                 </div>
             </div> */}
 
+          
 
 
-           <div className=" flex flex-col justify-center items-center">
-            <Appi />
-            </div>
+            <Appi />          
+          
+{/* 
+
+            <div className="carousel">
+                <div className="group">
+                    <div className="card">1</div>
+                    <div className="card">2</div>
+                    <div className="card">3</div>
+                    <div className="card">4</div>
+                    <div className="card">5</div>
+                    <div className="card">6</div>
+                </div>
+
+                 <div className="group">
+                    <div className="card">1</div>
+                    <div className="card">2</div>
+                    <div className="card">3</div>
+                    <div className="card">4</div>
+                    <div className="card">5</div>
+                    <div className="card">6</div>
+                </div>
+                 
+            </div> */}
+
+           
 
 
 
