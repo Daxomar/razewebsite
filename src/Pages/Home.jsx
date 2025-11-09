@@ -10,7 +10,7 @@ import TestimonialSection from '../Components/testimonialSection'
 import ProjectSection from '../Components/projectsSection'
 import PricingSection from '../Components/pricingSection'
 import FooterSection from '../Components/footerSection'
-
+NAV
 
 const Home = () => {
     return (
@@ -23,7 +23,7 @@ const Home = () => {
             {/* <HighLightSection /> */}
             <TestimonialSection/>
             <ProjectSection />
-            
+            <FooterSection/>
             
    {/* <video
   autoPlay

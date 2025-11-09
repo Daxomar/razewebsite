@@ -24,7 +24,7 @@ function App() {
         <Route path="/projects" element={<Fullprojects />} />
       </Routes>
       
-      <FooterSection />
+      {/* <FooterSection /> */}
  
     
     </div>

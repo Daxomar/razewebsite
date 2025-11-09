@@ -1,9 +1,12 @@
 import React from 'react'
 import { useState } from 'react'
+import { useNavigate } from 'react-router'
 import { assets } from '../assets/asset'
 
 export const Navbar = () => {
  
+
+    const navigate = useNavigate()
     const [menuOpen, setMenuOpen] = useState(false)
     return (
         <div className=" fixed top-0 left-0 w-full z-50 flex justify-between items-center bg-white  px-[20px] py-[8px] md:px-[40px] lg:px-[80px] ">
@@ -16,10 +19,10 @@ export const Navbar = () => {
                 <ul className="hidden sm:flex items-center  justify-between w-full text-RParagraph1   font-RMontserrat px-8">
                     <li className="relative py-2 px-4 "><a href="#home" className='text-RPrimary '>Home</a></li>
                     <li className="relative py-2 px-4  "><a href="#home" className='text-RPrimary'>About</a></li>
-                    <li className="relative py-2 px-4 "><a href="#home" className='text-RPrimary'>Projects</a></li>
+                    <li className="relative py-2 px-4 "><a href="#home" className='text-RPrimary' onClick={()=>navigate("/projects")}>Projects</a></li>
                     <li className="relative py-2 px-4  "><a href="#home" className='text-RPrimary'>Contact</a></li>
                     <li className="relative py-2 px-4  "><a href="#home" className='text-RPrimary'>Pricing</a></li>
-
+ 
 
                      {/* <div className="py-2 px-4">Home</div>
                     <div className="py-2 px-4">About</div>
