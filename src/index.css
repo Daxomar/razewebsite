@@ -8,8 +8,8 @@
 
 
 :root {
-  --RPrimary: #ffffff;
-  --RonPrimary: #101010;
+  --RPrimary: #101010;
+  --RonPrimary: #ffffff;
   --RSecondary: #c1272c;
 }
 
@@ -19,7 +19,40 @@
   --RPrimary: #101010;
   --RonPrimary: #ffffff;
   --RSecondary: #e04545;
+
 }
+
+
+
+
+/* NAVBAR STYLING WAS PARTLY DONE HERE TOO */
+
+li>a{
+    text-decoration: none;  
+    color:var(--RPrimary);
+    transition:0.3s ease ;
+}
+
+
+li > a::after {
+    position: absolute;
+    content: "";
+    width: 0; /* ← Start at 0 width */
+    height: 4px;
+    background: var(--RPrimary);
+    bottom: -4px;
+    left: 20px;
+    transition: width 0.3s ease; /* ← Animate width specifically */
+}
+
+li > a.active::after,
+li > a:hover::after {
+    width: 60%; /* ← Expand to 30% on hover/active */
+}
+
+
+/* NAVBAR STYLING WAS PARTLY DONE HERE TOO */
+
 
 
 .carousel {

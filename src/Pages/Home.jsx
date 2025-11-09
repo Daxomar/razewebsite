@@ -24,7 +24,7 @@ const Home = () => {
             <TestimonialSection/>
             <ProjectSection />
             
-            <FooterSection />
+            
    {/* <video
   autoPlay
   muted

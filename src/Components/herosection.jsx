@@ -15,7 +15,7 @@ const Herosection = () => {
                       bg-[url('/BGMobile.png')]
     sm:bg-[url('/Background.png')]
                       h-[calc(100vh)]    
-                      sm:bg-RPrimary
+                      sm:bg-white
                       mt-[-80px]
                           
                       xl:mt-[-60px]
