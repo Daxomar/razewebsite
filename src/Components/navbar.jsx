@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import { useNavigate } from 'react-router'
 import { assets } from '../assets/asset'
+import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
  
@@ -19,7 +20,9 @@ export const Navbar = () => {
                 <ul className="hidden sm:flex items-center  justify-between w-full text-RParagraph1   font-RMontserrat px-8">
                     <li className="relative py-2 px-4 "><a href="#home" className='text-RPrimary '>Home</a></li>
                     <li className="relative py-2 px-4  "><a href="#home" className='text-RPrimary'>About</a></li>
-                    <li className="relative py-2 px-4 "><a  className='text-RPrimary' onClick={()=>navigate("/projects")}>Projects</a></li>
+                    <li className="relative py-2 px-4 "><a  className='text-RPrimary' ><Link to="/projects" className='text-RPrimary'>
+    Projects
+  </Link></a></li>
                     <li className="relative py-2 px-4  "><a href="#home" className='text-RPrimary'>Contact</a></li>
                     <li className="relative py-2 px-4  "><a href="#home" className='text-RPrimary'>Pricing</a></li>
  
