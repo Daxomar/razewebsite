@@ -23,7 +23,7 @@ const Home = () => {
             {/* <HighLightSection /> */}
             <TestimonialSection/>
             <ProjectSection />
-            <FooterSection/>
+            
             
    {/* <video
   autoPlay
