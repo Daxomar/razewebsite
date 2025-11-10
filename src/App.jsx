@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import { Route, Routes } from 'react-router' 
+import { Route, Routes } from 'react-router-dom' 
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import viteLogo from '/vite.svg'
 import { Navbar } from './Components/navbar'
