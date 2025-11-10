@@ -2,7 +2,7 @@ import React from 'react'
 
 const IntroSection = () => {
   return (
-   <div className="border-b-4  justify-center   max-h-[1080px]  border-t-4 border-RonPrimary  pb-16  space-y-8 flex flex-col text-RPrimary  w-full   mt-16 max-w-[1980px] ">
+   <div className="border-b-4  justify-center   max-h-[1080px]  border-t-4 border-RPrimary  pb-16  space-y-8 flex flex-col text-RPrimary  w-full   mt-16 max-w-[1980px] ">
                  <div className="flex  ">
                     <div className="  flex gap-2 items-center w-full h-[64px] sm:mt-16 ">
                         <div className=""><i class="fa-solid fa-star text-2xl"></i></div>
