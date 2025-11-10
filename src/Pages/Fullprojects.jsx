@@ -2,7 +2,7 @@ import React from 'react'
 
 const Fullprojects = () => {
     return (
-        <div className='space-y-11 px-[20px] md:px-[40px] lg:px-[80px]  border-t-4 border-RonPrimary  pb-16  flex flex-col text-RPrimary w-full   mt-16 max-w-[1980px] '>
+        <div className=' px-[20px] md:px-[40px] lg:px-[80px]     border-t-4 border-RonPrimary  pb-16  space-y-8 flex flex-col text-RPrimary  w-full   mt-16 max-w-[1980px]  '>
             <div className="flex  gap-2  items-center mt-20">
                 <div className=" w-20 h-20 rounded-full flex items-center justify-center bg-[#CECECE]"><img src="/Background.png" className='object-contain w-16 h-16' /></div>
                 <div className="flex flex-col">
