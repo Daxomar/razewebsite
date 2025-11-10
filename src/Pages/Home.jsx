@@ -22,7 +22,7 @@ const Home = () => {
             <PricingSection/>
             {/* <HighLightSection /> */}
             <TestimonialSection/>
-            <ProjectSection />
+            {/* <ProjectSection /> */}
             
             
    {/* <video
