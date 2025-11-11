@@ -8,6 +8,7 @@ import Home from './Pages/Home.jsx'
 import './App.css'
 import Fullprojects from './Pages/Fullprojects.jsx';
 import FooterSection from './Components/footerSection.jsx';
+import ProjectListPage from './Pages/ProjectListPage.jsx';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +23,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Fullprojects />} />
+
+        <Route path="/projectListPage" element={<ProjectListPage />} />  
+        {/* <Route path="/projects/:id" element = {<ProjectDetail />} /> */}
+
       </Routes>
       
       <FooterSection />
