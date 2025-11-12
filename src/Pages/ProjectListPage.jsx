@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 
 const projects = [
-  { id: 1, name: "Modern Serenity", thumbnail: "/ProjectMain/G-Bequest/Bquest1.png" },
-  { id: 2, name: "Minimalist Haven", thumbnail: "/ProjectMain/G-Bequest/Bquest1.png" },
-  { id: 3, name: "Urban Calm", thumbnail: "/ProjectMain/G-Bequest/Bquest1.png" },
-  { id: 4, name: "Zen Studio", thumbnail: "/ProjectMain/G-Bequest/Bquest1.png" },
-  { id: 5, name: "The Mirage", thumbnail: "/ProjectMain/G-Bequest/Bquest1.png" },
+  { id: 1, name: "Project 1", thumbnail: "/ProjectMain/G-Bequest/Bquest1.png" },
+  { id: 2, name: "Project 2", thumbnail: "/ProjectMain/G-Bequest/Bquest1.png" },
+  { id: 3, name: "Project 3", thumbnail: "/ProjectMain/G-Bequest/Bquest1.png" },
+  { id: 4, name: "Project 4", thumbnail: "/ProjectMain/G-Bequest/Bquest1.png" },
+  { id: 5, name: "Project 5", thumbnail: "/ProjectMain/G-Bequest/Bquest1.png" },
 ];
 
 const ProjectListPage = () => {
