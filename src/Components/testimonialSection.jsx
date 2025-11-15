@@ -2,7 +2,7 @@ import React from 'react'
 
 const TestimonialSection = () => {
     return (
-        <div className="  border-t-4 border-RonPrimary    pb-16  space-y-8 flex flex-col text-RPrimary  w-full   mt-16 max-w-[1980px] ">
+        <div className="  border-t-4 border-RonPrimary  pb-16  space-y-8 flex flex-col text-RPrimary  w-full   mt-16 max-w-[1980px] ">
             <div className="flex mt-10 mb-10 ">
                 <div className="   flex gap-2 items-center w-[246px] h-[64px] ">
                     <div className=""><i class="fa-solid fa-star text-2xl"></i></div>

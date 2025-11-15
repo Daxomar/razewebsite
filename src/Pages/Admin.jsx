@@ -18,11 +18,11 @@ const Admin = () => {
       <div className=" flex flex-col  mt-10">
         <div className="flex flex-col gap-3 ">
           <div className=" text-RHeader4">Jobs</div>
-          <div className=" flex w-full items-center justify-between text-RParagraph2 font-RMontserrat ">
-           <div className="  font-semibold">All Jobs</div>
-           <div className=" opacity-50">3D Modelling</div>
-           <div className="  opacity-50">Brand Design</div>
-           <div className="opacity-50">Social Media</div>
+          <div className=" flex w-full items-center justify-between">
+           <div className=" text-RParagraph2 font-RMontserrat font-semibold">All Jobs</div>
+           <div className="text-RParagraph2 font-RMontserrat opacity-50">3D Modelling</div>
+           <div className=" text-RParagraph2 font-RMontserrat opacity-50">Brand Design</div>
+           <div className=" text-RParagraph2 font-RMontserrat opacity-50">Social Media</div>
           </div>
         </div>
 
@@ -36,7 +36,7 @@ const Admin = () => {
           
                  <div className="flex w-full items-center justify-between gap-2 ">
                      <div className="text-RParagraph2 font-RMontserrat w-full leading-6 ">
-                        <div className="font-semibold ">3D modeling</div>
+                        <div className="font-semibold ">3D Modeling</div>
                         <div className="font-normal">David Chukwurah buchi</div>
                      </div>
 
