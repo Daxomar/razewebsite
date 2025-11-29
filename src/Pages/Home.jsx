@@ -15,11 +15,11 @@ import FooterSection from '../Components/footerSection'
 const Home = () => {
     return (
 
-        <div className="flex flex-col items-center flex-1 bg-RonPrimary py-[80px] sm:py-[120px] px-[20px] sm:px-[40px] md:px-[40px] lg:px-[80px] 2xl:px-[100px] ">
-            {/* <Herosection /> */}
+        <div className="flex flex-col items-center flex-1 bg-RonPrimary py-[80px] sm:py-[120px] px-[20px] sm:px-[40px] md:px-[40px] lg:px-[80px] 2xl:px-[100px] w-full ">
+            <Herosection />
             {/* <IntroSection /> */}
             {/* <ServiceSection /> */}
-            {/* <PricingSection/> */}
+            <PricingSection/>
             {/* <HighLightSection /> */}
             {/* <TestimonialSection/> */}
             {/* <ProjectSection /> */}
