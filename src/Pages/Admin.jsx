@@ -66,7 +66,7 @@ const Admin = () => {
 
     
 
-   <div className=" flex  mt-10 w-full md:gap-24">
+   <div className=" flex  mt-10 w-full md:gap-24 ">
     <div className=" flex flex-col  mt-10 w-full ">
         <div className="flex  flex-col gap-3 w-full max-w-[470px]">
           <div className=" text-RHeader4">Jobs</div>
@@ -82,7 +82,62 @@ const Admin = () => {
            <div className=" bg-[#EAEAEA] p-4 flex flex-col items-center justify-between gap-2 ">
 
             <div className="w-full  bg-[#EAEAEA]  flex items-center justify-between gap-2">
-              <div className="h-[70px] w-[70px]  flex items-center justify-center text-RHeader4 font-RMontserrat bg-white">3D</div>
+              <div className="h-[70px] w-[70px]  flex items-center justify-center text-RHeader4 font-RMontserrat bg-white"></div>
+
+
+
+               {/* only visible in md and above */}
+                 <div className="hidden md:flex w-full max-w-[700px]  items-center gap-2 ">
+                     <div className="text-RParagraph2 font-RMontserrat w-full  leading-6 ">
+                        <div className="font-semibold ">3D Modeling</div>
+                        <div className="font-normal">David Chukwurah buchi</div>
+                     </div>
+
+                    <div className="text-RTitle font-RMontserrat    w-full "><strong>$</strong>900</div>
+                   
+                    <div className="text-RTitle font-RMontserrat w-full  flex items-center gap-3 ">
+                       <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                       <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                    </div>
+
+                 </div>
+
+              <div className=" flex items-center justify-center rounded-[10px] w-full py-3 text-RonPrimary font-RMontserrat bg-RPrimary max-w-[234px] ">Client Details</div>
+            </div>
+          
+
+          {/* only visible when in mobile */}
+                 <div className="md:hidden flex w-full items-center justify-between gap-2 ">
+                     <div className="text-RParagraph2 font-RMontserrat w-full leading-6 ">
+                        <div className="font-semibold ">3D Modeling</div>
+                        <div className="font-normal">David Chukwurah buchi</div>
+                     </div>
+
+                    <div className="text-RTitle font-RMontserrat  max-w-[70px]  w-full "><strong>$</strong>900</div>
+                   
+                    <div className="text-RTitle font-RMontserrat w-full max-w-[70px] flex items-center gap-3 ">
+                       <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                       <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                    </div>
+
+                 </div>
+              
+
+           </div>
+
+
+
+
+
+
+
+
+
+
+           <div className=" bg-[#EAEAEA] p-4 flex flex-col items-center justify-between gap-2 ">
+
+            <div className="w-full  bg-[#EAEAEA]  flex items-center justify-between gap-2">
+              <div className="h-[70px] w-[70px]  flex items-center justify-center text-RHeader4 font-RMontserrat bg-white"></div>
 
 
 
@@ -136,122 +191,147 @@ const Admin = () => {
 
 
 
-             <div className=" bg-[#EAEAEA] p-4 flex flex-col items-center justify-between gap-2 ">
+
+                     <div className=" bg-[#EAEAEA] p-4 flex flex-col items-center justify-between gap-2 ">
 
             <div className="w-full  bg-[#EAEAEA]  flex items-center justify-between gap-2">
-              <div className="h-[70px] w-[70px]  flex items-center justify-center text-RHeader4 bg-white">3D</div>
-              <div className=" flex items-center justify-center rounded-[10px] w-full py-3 text-RonPrimary font-RMontserrat bg-RPrimary max-w-[234px] ">Client Details</div>
-            </div>
-          
-                 <div className="flex w-full items-center justify-between gap-2 ">
-                     <div className="text-RParagraph2 font-RMontserrat w-full leading-6  ">
-                        <div className="font-semibold">3D modeling</div>
+              <div className="h-[70px] w-[70px]  flex items-center justify-center text-RHeader4 font-RMontserrat bg-white"></div>
+
+
+
+               {/* only visible in md and above */}
+                 <div className="hidden md:flex w-full max-w-[700px]  items-center gap-2 ">
+                     <div className="text-RParagraph2 font-RMontserrat w-full  leading-6 ">
+                        <div className="font-semibold ">3D Modeling</div>
                         <div className="font-normal">David Chukwurah buchi</div>
                      </div>
 
-                    <div className="text-RTitle font-RMontserrat  max-w-[70px]  w-full "><strong>$</strong>900</div>
+                    <div className="text-RTitle font-RMontserrat    w-full "><strong>$</strong>900</div>
                    
-                    <div className="text-RTitle font-RMontserrat w-full max-w-[70px] flex items-center gap-3 ">
+                    <div className="text-RTitle font-RMontserrat w-full  flex items-center gap-3 ">
                        <div className=""><i class="fa-solid fa-circle-check"></i></div>
                        <div className=""><i class="fa-solid fa-circle-check"></i></div>
                     </div>
 
                  </div>
-              
 
-           </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-             <div className=" bg-[#EAEAEA] p-4 flex flex-col items-center justify-between gap-2 ">
-
-            <div className="w-full  bg-[#EAEAEA]  flex items-center justify-between gap-2">
-              <div className="h-[70px] w-[70px]  flex items-center justify-center text-RHeader4 bg-white">3D</div>
               <div className=" flex items-center justify-center rounded-[10px] w-full py-3 text-RonPrimary font-RMontserrat bg-RPrimary max-w-[234px] ">Client Details</div>
             </div>
           
-                 <div className="flex w-full items-center justify-between gap-2 ">
-                     <div className="text-RParagraph2 font-RMontserrat w-full leading-6  ">
-                        <div className="font-semibold">3D modeling</div>
-                        <div className="font-normal">David Chukwurah buchi</div>
-                     </div>
 
-                    <div className="text-RTitle font-RMontserrat  max-w-[70px]  w-full "><strong>$</strong>900</div>
-                   
-                    <div className="text-RTitle font-RMontserrat w-full max-w-[70px] flex items-center gap-3 ">
-                       <div className=""><i class="fa-solid fa-circle-check"></i></div>
-                       <div className=""><i class="fa-solid fa-circle-check"></i></div>
-                    </div>
-
-                 </div>
-              
-
-           </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-             <div className=" bg-[#EAEAEA] p-4 flex flex-col items-center justify-between gap-2 ">
-
-            <div className="w-full  bg-[#EAEAEA]  flex items-center justify-between gap-2">
-              <div className="h-[70px] w-[70px]  flex items-center justify-center text-RHeader4 bg-white">3D</div>
-              <div className=" flex items-center justify-center rounded-[10px] w-full py-3 text-RonPrimary font-RMontserrat bg-RPrimary max-w-[234px] ">Client Details</div>
-            </div>
-          
-                 <div className="flex w-full items-center justify-between gap-2 ">
-                     <div className="text-RParagraph2 font-RMontserrat w-full leading-6  ">
-                        <div className="font-semibold">3D modeling</div>
-                        <div className="font-normal">David Chukwurah buchi</div>
-                     </div>
-
-                    <div className="text-RTitle font-RMontserrat  max-w-[70px]  w-full "><strong>$</strong>900</div>
-                   
-                    <div className="text-RTitle font-RMontserrat w-full max-w-[70px] flex items-center gap-3 ">
-                       <div className=""><i class="fa-solid fa-circle-check"></i></div>
-                       <div className=""><i class="fa-solid fa-circle-check"></i></div>
-                    </div>
-
-                 </div>
-              
-
-           </div>
-
-
-
-
-
-
-
-             <div className=" bg-[#EAEAEA] p-4 flex flex-col items-center justify-between gap-2 ">
-
-            <div className="w-full  bg-[#EAEAEA]  flex items-center justify-between gap-2">
-              <div className="h-[70px] w-[70px]  flex items-center justify-center text-RHeader4 bg-white">3D</div>
-              <div className=" flex items-center justify-center rounded-[10px] w-full py-3 text-RonPrimary font-RMontserrat bg-RPrimary max-w-[234px] ">Client Details</div>
-            </div>
-          
-                 <div className="flex w-full items-center justify-between gap-2 ">
+          {/* only visible when in mobile */}
+                 <div className="md:hidden flex w-full items-center justify-between gap-2 ">
                      <div className="text-RParagraph2 font-RMontserrat w-full leading-6 ">
-                        <div className="font-semibold">3D modeling</div>
+                        <div className="font-semibold ">3D Modeling</div>
+                        <div className="font-normal">David Chukwurah buchi</div>
+                     </div>
+
+                    <div className="text-RTitle font-RMontserrat  max-w-[70px]  w-full "><strong>$</strong>900</div>
+                   
+                    <div className="text-RTitle font-RMontserrat w-full max-w-[70px] flex items-center gap-3 ">
+                       <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                       <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                    </div>
+
+                 </div>
+              
+
+           </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              <div className=" bg-[#EAEAEA] p-4 flex flex-col items-center justify-between gap-2 ">
+
+            <div className="w-full  bg-[#EAEAEA]  flex items-center justify-between gap-2">
+              <div className="h-[70px] w-[70px]  flex items-center justify-center text-RHeader4 font-RMontserrat bg-white"></div>
+
+
+
+               {/* only visible in md and above */}
+                 <div className="hidden md:flex w-full max-w-[700px]  items-center gap-2 ">
+                     <div className="text-RParagraph2 font-RMontserrat w-full  leading-6 ">
+                        <div className="font-semibold ">3D Modeling</div>
+                        <div className="font-normal">David Chukwurah buchi</div>
+                     </div>
+
+                    <div className="text-RTitle font-RMontserrat    w-full "><strong>$</strong>900</div>
+                   
+                    <div className="text-RTitle font-RMontserrat w-full  flex items-center gap-3 ">
+                       <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                       <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                    </div>
+
+                 </div>
+
+              <div className=" flex items-center justify-center rounded-[10px] w-full py-3 text-RonPrimary font-RMontserrat bg-RPrimary max-w-[234px] ">Client Details</div>
+            </div>
+          
+
+          {/* only visible when in mobile */}
+                 <div className="md:hidden flex w-full items-center justify-between gap-2 ">
+                     <div className="text-RParagraph2 font-RMontserrat w-full leading-6 ">
+                        <div className="font-semibold ">3D Modeling</div>
+                        <div className="font-normal">David Chukwurah buchi</div>
+                     </div>
+
+                    <div className="text-RTitle font-RMontserrat  max-w-[70px]  w-full "><strong>$</strong>900</div>
+                   
+                    <div className="text-RTitle font-RMontserrat w-full max-w-[70px] flex items-center gap-3 ">
+                       <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                       <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                    </div>
+
+                 </div>
+              
+
+           </div>
+
+
+
+
+
+           <div className=" bg-[#EAEAEA] p-4 flex flex-col items-center justify-between gap-2 ">
+
+            <div className="w-full  bg-[#EAEAEA]  flex items-center justify-between gap-2">
+              <div className="h-[70px] w-[70px]  flex items-center justify-center text-RHeader4 font-RMontserrat bg-white"></div>
+
+
+
+               {/* only visible in md and above */}
+                 <div className="hidden md:flex w-full max-w-[700px]  items-center gap-2 ">
+                     <div className="text-RParagraph2 font-RMontserrat w-full  leading-6 ">
+                        <div className="font-semibold ">3D Modeling</div>
+                        <div className="font-normal">David Chukwurah buchi</div>
+                     </div>
+
+                    <div className="text-RTitle font-RMontserrat    w-full "><strong>$</strong>900</div>
+                   
+                    <div className="text-RTitle font-RMontserrat w-full  flex items-center gap-3 ">
+                       <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                       <div className=""><i class="fa-solid fa-circle-check"></i></div>
+                    </div>
+
+                 </div>
+
+              <div className=" flex items-center justify-center rounded-[10px] w-full py-3 text-RonPrimary font-RMontserrat bg-RPrimary max-w-[234px] ">Client Details</div>
+            </div>
+          
+
+          {/* only visible when in mobile */}
+                 <div className="md:hidden flex w-full items-center justify-between gap-2 ">
+                     <div className="text-RParagraph2 font-RMontserrat w-full leading-6 ">
+                        <div className="font-semibold ">3D Modeling</div>
                         <div className="font-normal">David Chukwurah buchi</div>
                      </div>
 
@@ -280,10 +360,21 @@ const Admin = () => {
 
 
 
-        <div className="hidden lg:flex flex-col  rounded-[20px] w-full md:max-w-[470px] bg-[#EAEAEA]">
+        <div className="hidden lg:flex flex-col  rounded-[20px] w-full md:max-w-[470px] ">
+         
 
-   
+         <div className="w-full   flex items-center justify-center bg-[#EAEAEA]  rounded-[20px] p-4">
+          <div className=" w-full flex flex-col  gap-2 font-RMontserrat ">
+            <div className="text-RParagraph1 text-[20px] font-bold">Learn even more</div>
+            <div className="text-RParagraph1 text-[14px]">Unlock premium features only for $9.99 per month</div>
+            <button className="flex items-center justify-center rounded-[10px] w-full p-3 text-RonPrimary font-RMontserrat bg-RPrimary max-w-[130px]">Go Premium</button>
+          </div>
+          <div className="w-full flex items-center justify-center"><img src="/Logo.svg" className='w-[102px] h-[102px]'/></div>
+ 
+         </div>
+         
 
+         
         </div>
      
      </div>

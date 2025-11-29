@@ -23,7 +23,7 @@ function App() {
      <div className="flex flex-col h-screen w-full items-center  ">
      
 
-      {/* <Navbar /> */}
+      <Navbar />
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -43,7 +43,7 @@ function App() {
         
       </Routes>
       
-      {/* <FooterSection /> */}
+      <FooterSection />
  
     
     </div>
