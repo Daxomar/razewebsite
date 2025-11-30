@@ -37,18 +37,18 @@ export const Realcarousel = ({
                 </div>
                 <div className=' w-full p-RLaptopPadding flex flex-col max-w-[670px] items-center   '>
                     <div className=" px-2 flex justify-between py-4  w-full ">
-                        <div className=" max-w-[120px] text-center text-RButtonText text-[8px] sm:text-[12px] border-2 border-RPrimary text-white rounded-RButton p-2 font-RMontserrat hover:bg-RPrimary hover:text-RonPrimary transition-colors duration-300 ease-in-out">Brand Design</div>
+                        <div className=" max-w-[120px] text-center text-RButtonText text-[8px] sm:text-[12px] border-2 border-RPrimary text-RPrimary rounded-RButton p-2 font-RMontserrat hover:bg-RPrimary hover:text-RonPrimary transition-colors duration-300 ease-in-out">Brand Design</div>
 
-                        <div className=" max-w-[120px] text-center text-RButtonText text-[8px] sm:text-[12px] border-2 border-RPrimary text-white rounded-RButton p-2 font-RMontserrat hover:bg-RPrimary hover:text-RonPrimary transition-colors duration-300 ease-in-out">Logo Creation</div>
+                        <div className=" max-w-[120px] text-center text-RButtonText text-[8px] sm:text-[12px] border-2 border-RPrimary text-RPrimary rounded-RButton p-2 font-RMontserrat hover:bg-RPrimary hover:text-RonPrimary transition-colors duration-300 ease-in-out">Logo Creation</div>
 
-                        <div className=" max-w-[120px] text-center text-RButtonText text-[8px] sm:text-[12px]  border-2 border-RPrimary text-white rounded-RButton p-2 font-RMontserrat hover:bg-RPrimary hover:text-RonPrimary transition-colors duration-300 ease-in-out">Visualization</div>
+                        <div className=" max-w-[120px] text-center text-RButtonText text-[8px] sm:text-[12px]  border-2 border-RPrimary text-RPrimary rounded-RButton p-2 font-RMontserrat hover:bg-RPrimary hover:text-RonPrimary transition-colors duration-300 ease-in-out">Visualization</div>
                     </div>
 
 
 
                     <div className=" xl:px-14 py-4 flex justify-around  w-full ">
-                        <div className="  max-w-[120px] text-center text-RButtonText text-[8px] sm:text-[12px] border-2 border-RPrimary text-white rounded-RButton p-2 font-RMontserrat hover:bg-RPrimary hover:text-RonPrimary transition-colors duration-300 ease-in-out">Marketting</div>
-                        <div className="  max-w-[120px] text-center text-RButtonText text-[8px]  sm:text-[12px] border-2 border-RPrimary text-white rounded-RButton p-2 font-RMontserrat hover:bg-RPrimary hover:text-RonPrimary transition-colors duration-300 ease-in-out">Website Design</div>
+                        <div className="  max-w-[120px] text-center text-RButtonText text-[8px] sm:text-[12px] border-2 border-RPrimary text-RPrimary rounded-RButton p-2 font-RMontserrat hover:bg-RPrimary hover:text-RonPrimary transition-colors duration-300 ease-in-out">Marketting</div>
+                        <div className="  max-w-[120px] text-center text-RButtonText text-[8px]  sm:text-[12px] border-2 border-RPrimary text-RPrimary rounded-RButton p-2 font-RMontserrat hover:bg-RPrimary hover:text-RonPrimary transition-colors duration-300 ease-in-out">Website Design</div>
                     </div>
                 </div>
             </div>

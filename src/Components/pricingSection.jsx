@@ -92,7 +92,7 @@ const PricingSection = () => {
                     </div>
 
                     <div className="pl-RLaptopPadding">
-                        <div className="  w-[120px] text-center text-RButtonText text-[12px] border-2 border-RPrimary text-white rounded-RButton p-2 font-RMontserrat hover:bg-RPrimary hover:text-RonPrimary transition-colors duration-300 ease-in-out">GET IN TOUCH</div>
+                        <div className="  w-[120px] text-center text-RButtonText text-[12px] border-2 border-RPrimary text-RPrimary rounded-RButton p-2 font-RMontserrat hover:bg-RPrimary hover:text-RonPrimary transition-colors duration-300 ease-in-out">GET IN TOUCH</div>
                     </div>
 
                 </div>
