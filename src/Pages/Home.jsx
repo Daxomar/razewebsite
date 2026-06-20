@@ -3,7 +3,6 @@ import { assets } from '../assets/asset'
 import Background from '../assets/Background.png'
 import BGMobile from '../assets/BGMobile.png'
 import Herosection from '../Components/herosection'
-import HighLightSection from '../Components/highlightsection'
 import ServiceSection from '../Components/services'
 import IntroSection from '../Components/introSection'
 import TestimonialSection from '../Components/testimonialSection'
@@ -20,7 +19,6 @@ const Home = () => {
             <IntroSection />
             <ServiceSection />
             <PricingSection/>
-            <HighLightSection />
             <TestimonialSection/>
             <ProjectSection />
             
